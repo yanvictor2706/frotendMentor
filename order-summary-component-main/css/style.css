@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e8ff; /* Fundo azul clarinho[cite: 2] */
+  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.cartao {
+  background-color: white;
+  width: 350px;
+  border-radius: 15px; /* Arredonda as bordas */
+  overflow: hidden;    /* Corta a imagem para acompanhar a borda redonda */
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+.imagem-topo {
+  width: 100%;
+  display: block;
+  background-color: #3829e0; /* Cor de fundo caso a imagem não carregue */
+}
+
+
+.conteudo {
+  padding: 25px;
+}
+
+h1 {
+  color: #1f2f56;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+p {
+  color: #7280a7;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.caixa-plano {
+  background-color: #f5f7ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+  
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icone {
+  width: 35px;
+  height: 35px;
+}
+
+.texto-plano {
+  text-align: left;
+  font-size: 14px;
+}
+
+.texto-plano strong {
+  display: block;
+  color: #1f2f56;
+}
+
+.texto-plano span {
+  color: #7280a7;
+}
+
+
+.link-trocar {
+  background: none;
+  border: none;
+  color: #3829e0;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.link-trocar:hover {
+  color: #766cf1;
+}
+
+
+.botao-roxo {
+  width: 100%;
+  padding: 14px;
+  background-color: #3829e0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.botao-roxo:hover {
+  background-color: #766cf1;
+}
+
+
+.botao-cancelar {
+  background: none;
+  border: none;
+  color: #7280a7;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-cancelar:hover {
+  color: #1f2f56;
+}
